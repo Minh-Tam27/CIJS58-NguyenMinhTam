@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindX - Chat</title>
+    <link rel="stylesheet" href="index.css"> 
+</head>
+
+<body>
+
+    <div id="app">
+
+    </div>
+
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-firestore.js"></script>
+
+<script>
+
+  var firebaseConfig = {
+    apiKey: "AIzaSyBMnQUF_cjIT5HAF8_sE3bqD_QgM70na-k",
+    authDomain: "ci58---minh-tam.firebaseapp.com",
+    projectId: "ci58---minh-tam",
+    storageBucket: "ci58---minh-tam.appspot.com",
+    messagingSenderId: "166634579903",
+    appId: "1:166634579903:web:e3e26649194fffd4b8630a"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore();
+</script>
+<script src="index.js" type="module"></script>
+</html>

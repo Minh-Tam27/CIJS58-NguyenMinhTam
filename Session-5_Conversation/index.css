@@ -1,0 +1,25 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+
+.item {
+    background-color: burlywood;
+    border: 1px solid black;
+}
+
+.col {
+    flex-direction: column;
+}
+.centering {
+    align-items: center;
+    justify-content: center;
+}

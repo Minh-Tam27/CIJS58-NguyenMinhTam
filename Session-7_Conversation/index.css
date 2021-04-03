@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+
+.item {
+    background-color: orange;
+    border: 1px solid black;
+}
+
+.col {
+    flex-direction: column;
+}
+.centering {
+    align-items: center;
+    justify-content: center;
+}
+
+.conversation-item {
+    border: 1px solid brown;
+    border-radius: 20px;
+    margin: 7px;
+    padding: 7px;
+    font-family: sans-serif;
+}
+
+.conversation-item:hover {
+    background-color: blanchedalmond;
+}
+
+.conversation-item.active {
+    background-color: olive;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.b-border {
+    border: 1px solid black;
+    border-radius: 20px;
+}
